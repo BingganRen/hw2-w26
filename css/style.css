@@ -1,99 +1,109 @@
-/* Body */
+/* 3. body */
 body{
     font-family: Arial, Verdana;
     background-color: #000000;
-    color: #ffffff;
+    color: #FFFFFF;
     margin: 20px 20px 0 20px;
   }
   
-  
-  /* Headings */
-  h1 {
+  /* 4. h1 */
+  h1{
     font-size: 42px;
     text-align: center;
     padding: 15px;
   }
   
-  h2 {
+  /* 5. h2 default */
+  h2{
     font-size: 30px;
-    color: #0d0d0d;
+    color: #0D0D0D;
   }
   
-  /* Paragraphs */
-  p {
+  /* 6. p default */
+  p{
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
   }
   
-  /* Images */
-  img {
+  /* 7. img default */
+  img{
     width: 250px;
     display: block;
     margin: 0 auto;
-    border: 10px dashed #ffffff;
+    border: 10px dashed #FFFFFF;
   }
+  
+  /* 8. div default */
   div{
     min-height: 125px;
     padding: 20px;
-    border: 3px solid #ffffff;
+    border: 3px solid #FFFFFF;
   }
   
-  /* Introduction */
-  .introduction {
+  /* 9. introduction */
+  .introduction{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
   }
-
   
+  /* 10. red */
   .red{
-    background-color: #ff0000;
+    background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left-width: 5px;
-    border-bottom-width: 2px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
   }
   
+  /* 11. blue */
   .blue{
-    background-color: #0000ff;
+    background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
   }
   
+  .blue h2{
+    color: #C4C4C4;
+  }
+  
+  .blue p{
+    color: #C4C4C4;
+  }
+  
+  /* 12. yellow */
   .yellow{
-    background-color: #ffff00;
+    background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left-width: 5px;
-    border-bottom-width: 2px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
   }
   
+  .yellow p{
+    color: #707070;
+  }
+  
+  /* 13. green */
   .green{
-    background-color: **#00D800**;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
-  }
-   
-
-  
-  /* Footer */
-  footer {
-    background: linear-gradient(
-      to right,
-      #000000 0%,
-      #0000ff 25%,
-      #0066ff 70%,
-      #000000 100%
-    );
-    border: 5px solid #ffffff;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
   }
   
-  footer p {
+  /* 14. footer */
+  footer{
+    background: linear-gradient(to right, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
+    border: 5px solid #FFFFFF;
+  }
+  
+  /* 15. footer p */
+  footer p{
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0;
