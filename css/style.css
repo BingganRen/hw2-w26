@@ -1,10 +1,11 @@
 /* Body */
-body {
-    font-family: Arial, Verdana, sans-serif;
+body{
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
     margin: 20px 20px 0 20px;
   }
+  
   
   /* Headings */
   h1 {
@@ -32,9 +33,7 @@ body {
     margin: 0 auto;
     border: 10px dashed #ffffff;
   }
-  
-  /* Default div */
-  div {
+  div{
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ffffff;
@@ -46,51 +45,41 @@ body {
     margin-top: 15px;
     line-height: 2;
   }
+
   
-  /* Red */
-  .red {
+  .red{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #ffffff;
-    border-left: 5px solid #ffffff;
+    border-left-width: 5px;
+    border-bottom-width: 2px;
   }
   
-  /* Blue */
-  .blue {
+  .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-right-width: 5px;
+    border-top-width: 2px;
   }
   
-  .blue h2,
-  .blue p {
-    color: #c4c4c4;
-  }
-  
-  /* Yellow */
-  .yellow {
+  .yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #ffffff;
-    border-left: 5px solid #ffffff;
+    border-left-width: 5px;
+    border-bottom-width: 2px;
   }
   
-  .yellow p {
-    color: #707070;
-  }
-  
-  /* Green */
-  .green {
-    background-color: #00d800;
+  .green{
+    background-color: **#00D800**;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-right-width: 5px;
+    border-top-width: 2px;
   }
+   
+
   
   /* Footer */
   footer {
