@@ -45,20 +45,20 @@ body{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #ffffff;
-    border-left: 5px solid #ffffff;
+    border-bottom: 2px;
+    border-left: 5px;
   }
   
   .blue{
-    background-color: #0000ff;
+    background-color:blue;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-right: 5px;
+    border-top: 2px;
   }
   
   .blue h2{
-    color: #c4c4c4;
+    color:#c4c4c4;
   }
   
   .blue p{
@@ -66,11 +66,11 @@ body{
   }
   
   .yellow{
-    background-color: #ffff00;
+    background-color:yellow;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #ffffff;
-    border-left: 5px solid #ffffff;
+    border-bottom: 2px;
+    border-left: 5px;
   }
   
   .yellow p{
@@ -78,11 +78,14 @@ body{
   }
   
   .green{
-    background-color: #00d800;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-right: 5px;
+    border-top: 2px;
+  }
+  .green p{
+    color:black;
   }
   
   footer{
